@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandala Interativa - Eleições 2024</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .responsive-img {
+            width: 100%;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <img src="image.png" usemap="#mandala-map" alt="Mandala Interativa" class="responsive-img">
+    <map name="mandala-map">
+        <!-- Coordenadas aproximadas para as áreas da imagem -->
+        <area shape="poly" coords="400,150,550,150,550,300,400,300" href="https://url1.com" alt="Pendências">
+        <area shape="poly" coords="550,300,700,300,700,450,550,450" href="https://url2.com" alt="Calendário">
+        <area shape="poly" coords="550,450,700,450,700,600,550,600" href="https://url3.com" alt="Autoridades">
+        <area shape="poly" coords="400,600,550,600,550,750,400,750" href="https://url4.com" alt="Infraestrutura">
+        <area shape="poly" coords="250,600,400,600,400,750,250,750" href="https://url5.com" alt="Zonas Eleitorais">
+    </map>
+</body>
+</html>
